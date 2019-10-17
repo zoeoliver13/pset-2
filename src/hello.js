@@ -1,1 +1,1 @@
-Consolelog(Hello, planet)
+consolelog(Hello, planet)
