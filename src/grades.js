@@ -13,4 +13,4 @@ const test3 = readlineSync.question("");
 const testavg = (parseFloat(test)+parseFloat(test2)+parseFloat(test3))/3*.5;
 let grade = (parseFloat(hwavg)+parseFloat(quizavg)+parseFloat(testavg));
 grade = grade.toLocaleString("en", { minimumFractionDigits: 2, maximumFractionDigits: 2});
-console.log("\nYour marking period grade is " + grade + "%.");
+console.log("\nYour marking period grade is " + grade + "%.\n");
